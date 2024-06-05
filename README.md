@@ -55,9 +55,9 @@ Base project made with much: . Contains Bloc, Route, and much more!
 
 1. Download or clone this repo by using the link below:
 
-   ```
-   https://github.com/GoldenOwlAsia/mobile-flutter-template.git
-   ```
+      ```
+   https://github.com/zendy199x/Flutter-Template-Boilerplate.git
+      ```
 
 2. Go to project root and execute the following command in console to update this project config
    ```sh
@@ -78,7 +78,17 @@ Base project made with much: . Contains Bloc, Route, and much more!
   - Update `firebase_options_stg.dart`
   - Update `REVERSED_CLIENT_ID` on file info.plist
 
-4. [Try to run this code](#run-this-template)
+4. Update Firebase config - by run command
+    ```
+    flutterfire config \
+      --project={YOUR_FIREBASE_ID_PROJECT} \
+      --out={part to save firebase_options.dart} \
+      --ios-bundle-id={BUNDLE_ID_APP} \
+      --android-app-id={APP_ID}
+    ```
+    -> [Read More here](https://github.com/zendy199x/Flutter-Template-Boilerplate/wiki/Flavors)
+
+5. [Try to run this code](#run-this-template)
 
 # Code Conventions
 
@@ -195,6 +205,10 @@ lib/
 ## Navigation Stack
 
 ![](resources/images/screens.png)
+
+## Wiki
+
+Checkout [wiki](https://github.com/zendy199x/Flutter-Template-Boilerplate/wiki) for more info
 
 ## Screenshot
 
